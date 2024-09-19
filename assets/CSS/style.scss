@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1020px;
+    margin: 0 auto;   
+}
+
+.intro{
+    background: url(../img/bg-main.png) no-repeat center center / cover;
+    padding: 208px 0 400px 0;
+
+    &__title{
+        color: #fff;
+        font-size: 56px;
+        font-weight: 900;
+        max-width: 585px;
+        
+    }
+
+    &__button{
+        width: 211px;
+        height: 40px;
+        background-color: #F2726F;
+        border-radius: 10px;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 48px;
+        padding-left: 34px;
+        padding-top: 13px;
+        box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    }
+}
+
+.logo{
+    display: flex;
+    margin-bottom: 27px;
+    justify-content: space-between;
+
+    &__button{
+        width: 211px;
+        height: 40px;
+        background-color: #F2726F;
+        border-radius: 10px;
+        padding-left: 34px;
+        padding-top: 13px;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;   
+    }
+
+    &__text{
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 22px;
+        display: flex;
+        &::before{
+            content: url(../img/icon-time.svg);
+            position: relative;
+            right: 10px;
+            z-index: 0;
+        }
+    }
+
+    &__text2{
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 22px;
+        display: flex;
+        &::before{
+            content: url(../img/icon-phone.svg);
+            position: relative;
+            right: 10px;
+            z-index: 0;
+            
+        }
+    }
+
+}
+
+.hat{
+    height: 60px;
+    width: 1020px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    align-items: center;
+    margin-bottom: 132px;
+    ul{
+        gap: 37px;
+        display: flex;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+.dog{
+    margin-top: -80px;
+    margin-bottom: 180px;
+    &__wrap{
+        background-color: #5D62B5;
+        padding: 100px 87px 0 87px;
+        border-radius: 40px;
+        position: relative;
+    }
+
+    &__dots{
+        position: absolute;
+        top: -100px;
+        right: -80px;
+    }
+    &__subtitle{
+        color: #F5F5F5;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+
+        
+        &-box{
+            display: flex;
+            align-items: center;
+            margin-bottom: 33px;
+            &__logo{
+                position: relative;
+                top: 2px;
+            }
+
+        }
+
+    }
+    &__title{
+        color: #fff;
+        font-size: 36px;
+        font-weight: 900;
+        min-width: 583px;
+        margin-bottom: 36px;
+    }
+
+    &__text{
+        color: #F5F5F5;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: -54px;
+    }
+
+    &__photo{
+        position: relative;
+        bottom: -120px;
+        & img{
+            border-radius: 40px;
+        }
+
+    }
+    &__blob{
+        position: absolute;
+        bottom: -140px;
+        left: 0;
+    }
+}
+
+.help{
+
+    &__subtitle{
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        color: #5D62B5;
+        display: flex;
+        gap: 16px;  
+        &::before{
+            content: url(../img/alabuga2.svg);
+            position: relative;
+            bottom: 6px;                      
+        }
+    }
+
+    &__texts{
+        display: flex;
+        gap: 100px;
+
+        &-title{
+            font-family: Roboto;
+            font-size: 19px;
+            color: #F2726F;
+            font-weight: 900;
+            &::before{
+                content: url(../img/dog_love_24x.svg);
+                position: relative;
+                right: 83px;
+                top: 65px;
+
+
+            }    
+        }
+
+        &-title2{
+            font-family: Roboto;
+            font-size: 19px;
+            color: #F2726F;
+            font-weight: 900;
+            &::before{
+                content: url(../img/dog_vet_24x.svg);
+                position: relative;
+                right: 83px;
+                top: 65px;
+            }         
+        }
+
+        &-title3{
+            font-family: Roboto;
+            font-size: 19px;
+            color: #F2726F;
+            font-weight: 900;
+            &::before{
+                content: url(../img/dog_stream_24x.svg);
+                position: relative;
+                right: 83px;
+                top: 65px;
+            }   
+        }
+
+    }
+
+    &__text{
+        color: #4B4B4B;
+        font-family: Roboto;
+        font-size: 16px;
+        max-width: 235px;
+        margin-top: 20px;
+        margin-bottom: 122px;
+    }
+
+    &__text2{
+        color: #4B4B4B;
+        font-family: Roboto;
+        font-size: 16px;
+        max-width: 235px;
+        margin-top: 20px;
+        margin-bottom: 122px;
+    }
+
+    &__text3{
+        color: #4B4B4B;
+        font-family: Roboto;
+        font-size: 16px;
+        max-width: 235px;
+        margin-top: 20px;
+        margin-bottom: 122px;
+    }
+
+    &__title{
+        font-family: Roboto;
+        font-size: 36px;
+        color: #000000;
+        margin-bottom: 26px;
+    }
+
+    &__bg{
+        background-image: url(../img/bg-main.png);
+        }
+        &-main{
+            font-family: Roboto;
+        font-size: 36px;
+        font-weight: 900;
+            
+        padding-top: 112px;
+        padding-left: 819px;
+        margin-bottom: 42px;
+        }
+        &-button{
+            width: 211px;
+            height: 40px;
+            background-color: #F2726F;
+            border-radius: 10px;
+            padding-left: 34px;
+            padding-top: 13px;
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            margin-left: 819px;
+        }
+    }
+
+
+    
+}
